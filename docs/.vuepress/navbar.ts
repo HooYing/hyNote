@@ -1,12 +1,42 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  { text: "主页", icon: "home", link: "/"},
-  { 
-    text: "C++学习笔记", icon: "creative", link: "/CPP/" 
+  { text: "主页", icon: "home", link: "/" },
+  {
+    text: "学习",
+    icon: "storage",
+    prefix: "/Study/",
+    children: [
+      {
+        text: "Git相关",
+        link: "Git",
+        icon: "note"
+      },
+      {
+        text: "Linux相关",
+        link: "Linux",
+        icon: "note"
+      },
+      {
+        text: "C++相关",
+        link: "CPP",
+        icon: "note"
+      },
+      {
+        text: "随笔",
+        link: "Note",
+        icon: "note"
+      }
+    ]
   },
-  { 
-    text: "买炫迈的小男孩", icon: "creative", link: "/Note/" 
+  {
+    text: "生活", icon: "storage", link: "/Life/每日一词"
+  },
+  {
+    text: "工作", icon: "storage", link: "/Work/"
+  },
+  {
+    text: "买炫迈的小男孩", icon: "creative", link: "/Boy/"
   },
   // {
   //   text: "随笔",

@@ -4,11 +4,11 @@ import sidebar from "./sidebar";
 
 export default hopeTheme({
   //域名
-  //hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+  hostname: "http://hugo.work",
 
   author: {
     name: "灰灰烟影",
-    //url: "https://mrhope.site",
+    url: "http://hugo.work",
   },
 
   iconAssets: "iconfont",
@@ -16,13 +16,13 @@ export default hopeTheme({
   logo: "/logo.png",
 
   // 仓库链接
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "HooYing/hyNote",
 
   // 文档在仓库中的目录
-  docsDir: "demo/src",
+  docsDir: "docs",
 
   // 分支
-  docsBranch: "main",
+  docsBranch: "master",
 
   // navbar
   navbar: navbar,
@@ -38,8 +38,9 @@ export default hopeTheme({
 
   blog: {
     description: "船到桥头自然沉",
-    intro: "/",
+    intro: "/slide.html",
     roundAvatar: true,
+	/*
     medias: {
       Baidu: "https://example.com",
       Bitbucket: "https://example.com",
@@ -71,6 +72,7 @@ export default hopeTheme({
       Youtube: "https://example.com",
       Zhihu: "https://example.com",
     },
+	*/
   },
 
   encrypt: {
@@ -92,10 +94,10 @@ export default hopeTheme({
        * Using Giscus
        */
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "HooYing/hyNote",
+      repoId: "R_kgDOHkbPUQ",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOHkbPUc4CP6II",
 
       /**
        * Using Twikoo

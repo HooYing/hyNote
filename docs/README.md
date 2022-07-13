@@ -7,16 +7,11 @@ heroText: 灰灰烟影
 # heroFullScreen: true
 bgImage: bj.jpg
 tagline: 船到桥头自然沉
-# projects:
-#   - icon: project
-#     name: 项目名称
-#     desc: 项目详细描述
-#     link: https://你的项目链接
-
-#   - icon: link
-#     name: 链接名称
-#     desc: 链接详细描述
-#     link: https://链接地址
+projects:
+  - icon: link
+    name: 博客园
+    desc: 一些算法相关的文章
+    link: https://www.cnblogs.com/HooYing/
 
 #   - icon: book
 #     name: 书籍名称
@@ -27,22 +22,16 @@ tagline: 船到桥头自然沉
 #     name: 文章名称
 #     desc: 文章详细描述
 #     link: https://你的文章链接
-
-#   - icon: friend
-#     name: 伙伴名称
-#     desc: 伙伴详细介绍
-#     link: https://你的伙伴链接
+  
+  - icon: friend
+    name: 卖炫迈的小男孩
+    desc: 一位帅气的阳光大男孩
+    link: https://blog.csdn.net/qq_43791377
 
 #   - icon: /logo.png
 #     name: 自定义项目
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-footer: 
+footer: 灰灰烟影
 ---
-
-这是一个博客主页的案例。
-
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home/)。
