@@ -27,3 +27,5 @@ git config --global user.email "邮箱"
 
 ## 切换
 
+![image-20220716013242630](../../.vuepress/public/image/image-20220716013242630.png)
+
