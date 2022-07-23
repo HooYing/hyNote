@@ -48,6 +48,22 @@ thread参数是目标线程的标识符，retval参数则是目标线程返回�
 
 ![image-20220114150515248](https://cdn.jsdelivr.net/gh/HooYing/Image@main/imgs/image-20220114150515248.png)
 
+
+
+![](https://cdn.staticaly.com/gh/HooYing/Image@main/imgs/imgs/202207231439304.jpg)
+
+
+
+![](https://git.poker/HooYing/Image/imgs/202207231440942.jpg)
+
+
+
+![](https://cdn.jsdelivr.net/gh/HooYing/Image@main/imgs/202207231608796.jpg)
+
+
+
+![image-20220723171034678](image/C++多线程/image-20220723171034678.png)
+
 ### 4、pthread_cancel
 
 有时候我们希望异常终止一个线程，即取消线程，它是通过如下函数实现的：
