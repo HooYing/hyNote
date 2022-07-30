@@ -52,6 +52,13 @@ export default sidebar({
       icon: "note"
     }
   ],
+  '/Game/': [
+    {
+      text: "我的世界",
+      link: "我的世界",
+      icon: "note"
+    },
+  ],
   '/Work/': [
     {
       text: "工作",

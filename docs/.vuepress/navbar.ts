@@ -33,6 +33,9 @@ export default navbar([
     text: "生活", icon: "storage", link: "/Life/每日一词"
   },
   {
+    text: "游戏", icon: "storage", link: "/Game/我的世界"
+  },
+  {
     text: "工作", icon: "storage", link: "/Work/"
   },
   {
