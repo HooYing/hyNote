@@ -33,5 +33,5 @@ projects:
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-footer: 灰灰烟影
+footer: 粤ICP备2021047827
 ---
