@@ -83,7 +83,7 @@ export default hopeTheme({
 
   plugins: {
     blog: {
-      autoExcerpt: true,
+      excerptLength: 0,
     },
 
     // 如果你不需要评论，可以直接删除 comment 配置，
@@ -126,6 +126,10 @@ export default hopeTheme({
     red: "#f26d6d",
     green: "#3eaf7c",
     orange: "#fb9b5f",
+  },
+
+  markdown: {
+    revealjs: true,
   },
   
 });

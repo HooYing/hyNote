@@ -1,7 +1,7 @@
 ---
 title: 灰灰烟影
 icon: people
-layout: Slide
+layout: SlidePage
 timeline: false
 ---
 
