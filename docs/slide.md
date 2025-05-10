@@ -3,6 +3,7 @@ title: 灰灰烟影
 icon: people
 layout: SlidePage
 timeline: false
+article: false
 ---
 
 @slidestart

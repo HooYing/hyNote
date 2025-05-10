@@ -10,7 +10,7 @@ export default sidebar({
     {
       text: "Git相关",
       icon: "note",
-      collapsable: true,
+      collapsible: true,
       prefix: "Git/",
       link: "Git/",
       children: ["Git常用命令"],
@@ -18,7 +18,7 @@ export default sidebar({
     {
       text: "Linux相关",
       icon: "note",
-      collapsable: true,
+      collapsible: true,
       prefix: "Linux/",
       link: "Linux/",
       children: ["Linux常用命令"],
@@ -26,7 +26,7 @@ export default sidebar({
     {
       text: "C++相关",
       icon: "note",
-      collapsable: true,
+      collapsible: true,
       prefix: "CPP/",
       link: "CPP/",
       children: ["栈帧", "C++多线程", "cmake"],
@@ -34,7 +34,7 @@ export default sidebar({
     {
       text: "随笔",
       icon: "note",
-      collapsable: true,
+      collapsible: true,
       prefix: "Note/",
       link: "Note/",
       children: ['进程和线程', "Linux调试", "windbg相关"],
@@ -64,7 +64,7 @@ export default sidebar({
       text: "工作",
       icon: "storage",
       prefix: "/Work/",
-      collapsable: true,
+      collapsible: true,
       children: [
         
       ]
@@ -75,7 +75,7 @@ export default sidebar({
       text: "买炫迈的小男孩",
       icon: "storage",
       prefix: "/Boy/",
-      collapsable: true,
+      collapsible: true,
       children: [
         'Spring、SpringMVC、Mybatis心得与笔记'
       ]
