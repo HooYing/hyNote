@@ -4,42 +4,42 @@ export default navbar([
   { text: "主页", icon: "home", link: "/" },
   {
     text: "学习",
-    icon: "storage",
+    icon: "fa-solid:graduation-cap",
     prefix: "/Study/",
     children: [
       {
         text: "Git相关",
-        link: "Git",
-        icon: "note"
+        link: "Git/",
+        icon: "fa-solid:note-sticky"
       },
       {
         text: "Linux相关",
-        link: "Linux",
-        icon: "note"
+        link: "Linux/",
+        icon: "fa-solid:note-sticky"
       },
       {
         text: "C++相关",
-        link: "CPP",
-        icon: "note"
+        link: "CPP/",
+        icon: "fa-solid:note-sticky"
       },
       {
         text: "随笔",
-        link: "Note",
-        icon: "note"
+        link: "Note/",
+        icon: "fa-solid:note-sticky"
       }
     ]
   },
   {
-    text: "生活", icon: "storage", link: "/Life/每日一词"
+    text: "生活", icon: "fa-solid:face-laugh-beam", link: "/Life/"
   },
   {
-    text: "游戏", icon: "storage", link: "/Game/我的世界"
+    text: "游戏", icon: "fa-solid:fa-gamepad", link: "/Game/我的世界"
   },
   {
-    text: "工作", icon: "storage", link: "/Work/"
+    text: "笔记", icon: "fa-solid:note-sticky", link: "/Note/"
   },
   {
-    text: "买炫迈的小男孩", icon: "creative", link: "/Boy/"
+    text: "买炫迈的小男孩", icon: "fa-solid:user-group", link: "/Boy/"
   },
   // {
   //   text: "随笔",

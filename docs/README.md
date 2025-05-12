@@ -23,7 +23,7 @@ projects:
 #     desc: 文章详细描述
 #     link: https://你的文章链接
   
-  - icon: friend
+  - icon: fa-solid:user-group
     name: 卖炫迈的小男孩
     desc: 一位帅气的阳光大男孩
     link: https://blog.csdn.net/qq_43791377

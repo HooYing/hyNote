@@ -4,12 +4,12 @@ export default sidebar({
   '/Study/': [
     {
       text: "博客相关",
-      icon: "note",
+      icon: "fa-solid:note-sticky",
       link: "Blog/博客相关"
     },
     {
       text: "Git相关",
-      icon: "note",
+      icon: "fa-solid:note-sticky",
       collapsible: true,
       prefix: "Git/",
       link: "Git/",
@@ -17,7 +17,7 @@ export default sidebar({
     },
     {
       text: "Linux相关",
-      icon: "note",
+      icon: "fa-solid:note-sticky",
       collapsible: true,
       prefix: "Linux/",
       link: "Linux/",
@@ -25,7 +25,7 @@ export default sidebar({
     },
     {
       text: "C++相关",
-      icon: "note",
+      icon: "fa-solid:note-sticky",
       collapsible: true,
       prefix: "CPP/",
       link: "CPP/",
@@ -33,7 +33,7 @@ export default sidebar({
     },
     {
       text: "随笔",
-      icon: "note",
+      icon: "fa-solid:note-sticky",
       collapsible: true,
       prefix: "Note/",
       link: "Note/",
@@ -44,36 +44,32 @@ export default sidebar({
     {
       text: "每日一词",
       link: "每日一词",
-      icon: "note"
+      icon: "fa-solid:face-laugh-beam"
     },
     {
       text: "新电脑",
       link: "新电脑",
-      icon: "note"
+      icon: "fa-solid:face-laugh-beam"
     }
   ],
   '/Game/': [
     {
       text: "我的世界",
       link: "我的世界",
-      icon: "note"
+      icon: "fa-solid:fa-gamepad"
     },
   ],
-  '/Work/': [
+  '/Note/': [
     {
-      text: "工作",
-      icon: "storage",
-      prefix: "/Work/",
-      collapsible: true,
-      children: [
-        
-      ]
-    }
+      text: "实时笔记",
+      link: "实时笔记",
+      icon: "fa-solid:note-sticky",
+    },
   ],
   '/Boy/': [
     {
       text: "买炫迈的小男孩",
-      icon: "storage",
+      icon: "fa-solid:user-group",
       prefix: "/Boy/",
       collapsible: true,
       children: [
