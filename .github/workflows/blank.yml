@@ -23,7 +23,7 @@ jobs:
       - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 22
        
       - name: 安装依赖
         run: npm install
@@ -33,13 +33,19 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=4096
         run: npm run docs:build
 
-      - name: 部署文档
-        uses: easingthemes/ssh-deploy@v2.0.7
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
-          ARGS: "-avz --delete"
-          SOURCE: "docs/.vuepress/dist"
-          REMOTE_HOST: ${{ secrets.HOST }}
-          REMOTE_USER: ${{ secrets.USER }}
-          TARGET: ${{ secrets.TARGET }}
+      # - name: 部署文档
+      #   uses: easingthemes/ssh-deploy@v2.0.7
+      #   env:
+      #     SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
+      #     ARGS: "-avz --delete"
+      #     SOURCE: "docs/.vuepress/dist"
+      #     REMOTE_HOST: ${{ secrets.HOST }}
+      #     REMOTE_USER: ${{ secrets.USER }}
+      #     TARGET: ${{ secrets.TARGET }}
+      
+      - name: 部署到 GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: docs/.vuepress/dist
+          branch: master
 
